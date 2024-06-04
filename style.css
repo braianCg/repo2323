@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.nav-item {
+    display: flex;
+
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.title1 {
+    margin-bottom: 30px;
+    font-size: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-bottom: 18px;
+    padding-top: 10px;
+
+}
+.nav-item a:hover {
+background: #e2a446;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(./assets/img/container.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    padding: 0 100px;
+
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #96649c;
+    color: white;
+    text-decoration: none;
+    background: #96649c;
+}
+
+.btn-home {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #e2a446;
+    color: white;
+    text-decoration: none;
+    background: #e2a446;
+
+}
+
+.btn-home a {
+    margin: 10px 10px;
+}
+
+.btn-home {
+    background-color: #e2a446;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home:hover {
+    background: none;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box {
+    text-decoration: none;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #978080;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.box-container .box p {
+    padding: 0 5px;
+    font-size: 16px;
+}
+
+.about {
+    background: #101010;
+
+}
+
+.price {
+    background: url(./assets/img/fondo-de-pantalla-rojo-y-naranja.jpg) no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+
+}
+
+.container33 {
+    display: grid;
+    
+}
+
+.container33 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1em;
+    grid-template-columns: minmax(33%, auto);
+    text-align: center;
+}
+
+.container33 .box-1 {
+    padding: 1em;
+}
+
+.container33 .box-1:hover {
+    border: 1px solid #f1c40f;
+}
+
+.title2 {
+    background-color: #f1c40f;
+}
+
+.header2 {
+    background: url(./assets/img/fondo-de-pantalla-rojo-y-naranja.jpg) no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.grid3 {
+    display: grid;
+}
+
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1em;
+    grid-template-columns: minmax(33%, auto);
+    text-align: center;
+}
+
+.grid2 {
+    display: grid;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1em;
+    grid-template-columns: minmax(33%, auto);
+    text-align: center;
+}
+
+.caja {
+    background: #e2a446;
+    padding-top: 20px;
+    padding-bottom: 0;
+    align-content: center;
+
+}
+
+.caja2 {
+    display: grid;
+}
+
+.caja2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1em;
+    grid-template-columns: minmax(33%, auto);
+    text-align: center;
+}
+
